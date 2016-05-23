@@ -1,0 +1,97 @@
+@import 'compass/css3';
+@mixin stinsonGradient($top, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top,  $top 0%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  $top 0%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  $top 0%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.stinsonBg{
+	background:url('../img/bg.jpg') no-repeat;
+    background-size: cover;
+    padding: 200px 0 50px;
+    color: #fff;
+    h1{
+    	color: #fff;
+    	text-transform: uppercase;
+    	font-size:20px;
+    }
+    h2{
+		margin: 15px 0;
+	    font-size: 16px;
+	    text-transform: uppercase;
+	}
+    .stinsonInner{
+    	text-align: center;
+		.container{
+			max-width:768px;
+		}
+	}
+	.row{
+		margin: 20px 0;
+	}
+	.tabSquare {
+		@media (max-width: 767px) {
+	    margin-top: 15px;
+		}
+	}
+	.nav-tabs>{
+		li>a {
+    	color: #fff;
+    	font-size: 12px;
+    	@media (max-width: 991px) {
+	    	font-size: 13px;
+		    padding: 10px;
+		}
+		    &:hover, &:focus {
+	    		color: #ffffff;
+	        	background-color: #B55700;
+	        	border: 1px solid #B55700;
+	    	}
+		}
+		li.active>a{
+		    background-color: #E26D00;
+		    border: 1px solid #E26D00;
+		    &:focus, &:hover {
+		    	background-color: #E26D00;
+		    	border: 1px solid #E26D00;
+		    }
+		}
+	}
+	.tab-content{
+		p {
+		    margin: 0 0 15px;
+		    font-size: 11px;
+		    font-weight: 200;
+		}
+		a{
+	    	@include stinsonGradient(#E26D00, #864A1C);
+	    	border: none;
+	    	&:focus, &:hover {
+	    		@include stinsonGradient(#C65900, #5E3315);
+	    	}
+	    }
+	}
+	form{
+		.submitForm{
+			margin-top: 30px;
+			button{
+				width: 100%;
+				@include stinsonGradient(#3A6ABF, #1B2E5B);
+				border: none;
+				color: #ffffff;
+				@media (max-width: 767px) {
+					max-width: 300px;
+					margin:0 auto;
+					display: block;
+				}
+			}
+		}
+	}
+	
+}
+
+
