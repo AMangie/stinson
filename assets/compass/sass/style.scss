@@ -24,6 +24,13 @@
 	    font-size: 16px;
 	    text-transform: uppercase;
 	}
+	.imgResponsive{width: 100%;}
+	.imgPkgTab{
+		max-height: 170px;
+		@media (min-width: 768px){
+			margin-top: -20px;
+		}
+	}
     .stinsonInner{
     	text-align: center;
 		.container{

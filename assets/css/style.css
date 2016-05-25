@@ -18,58 +18,72 @@
   text-transform: uppercase;
 }
 /* line 27, ../compass/sass/style.scss */
+.stinsonBg .imgResponsive {
+  width: 100%;
+}
+/* line 28, ../compass/sass/style.scss */
+.stinsonBg .imgPkgTab {
+  max-height: 170px;
+}
+@media (min-width: 760px) {
+  /* line 28, ../compass/sass/style.scss */
+  .stinsonBg .imgPkgTab {
+    margin-top: -20px;
+  }
+}
+/* line 34, ../compass/sass/style.scss */
 .stinsonBg .stinsonInner {
   text-align: center;
 }
-/* line 29, ../compass/sass/style.scss */
+/* line 36, ../compass/sass/style.scss */
 .stinsonBg .stinsonInner .container {
   max-width: 768px;
 }
-/* line 33, ../compass/sass/style.scss */
+/* line 40, ../compass/sass/style.scss */
 .stinsonBg .row {
   margin: 20px 0;
 }
 @media (max-width: 767px) {
-  /* line 36, ../compass/sass/style.scss */
+  /* line 43, ../compass/sass/style.scss */
   .stinsonBg .tabSquare {
     margin-top: 15px;
   }
 }
-/* line 42, ../compass/sass/style.scss */
+/* line 49, ../compass/sass/style.scss */
 .stinsonBg .nav-tabs > li > a {
   color: #fff;
   font-size: 12px;
 }
 @media (max-width: 991px) {
-  /* line 42, ../compass/sass/style.scss */
+  /* line 49, ../compass/sass/style.scss */
   .stinsonBg .nav-tabs > li > a {
     font-size: 13px;
     padding: 10px;
   }
 }
-/* line 49, ../compass/sass/style.scss */
+/* line 56, ../compass/sass/style.scss */
 .stinsonBg .nav-tabs > li > a:hover, .stinsonBg .nav-tabs > li > a:focus {
   color: #ffffff;
   background-color: #B55700;
   border: 1px solid #B55700;
 }
-/* line 55, ../compass/sass/style.scss */
+/* line 62, ../compass/sass/style.scss */
 .stinsonBg .nav-tabs > li.active > a {
   background-color: #E26D00;
   border: 1px solid #E26D00;
 }
-/* line 58, ../compass/sass/style.scss */
+/* line 65, ../compass/sass/style.scss */
 .stinsonBg .nav-tabs > li.active > a:focus, .stinsonBg .nav-tabs > li.active > a:hover {
   background-color: #E26D00;
   border: 1px solid #E26D00;
 }
-/* line 65, ../compass/sass/style.scss */
+/* line 72, ../compass/sass/style.scss */
 .stinsonBg .tab-content p {
   margin: 0 0 15px;
   font-size: 11px;
   font-weight: 200;
 }
-/* line 70, ../compass/sass/style.scss */
+/* line 77, ../compass/sass/style.scss */
 .stinsonBg .tab-content a {
   background: #E26D00;
   /* Old browsers */
@@ -89,7 +103,7 @@
   /* IE6-9 */
   border: none;
 }
-/* line 73, ../compass/sass/style.scss */
+/* line 80, ../compass/sass/style.scss */
 .stinsonBg .tab-content a:focus, .stinsonBg .tab-content a:hover {
   background: #C65900;
   /* Old browsers */
@@ -108,11 +122,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
 }
-/* line 79, ../compass/sass/style.scss */
+/* line 86, ../compass/sass/style.scss */
 .stinsonBg form .submitForm {
   margin-top: 30px;
 }
-/* line 81, ../compass/sass/style.scss */
+/* line 88, ../compass/sass/style.scss */
 .stinsonBg form .submitForm button {
   width: 100%;
   background: #3A6ABF;
@@ -135,7 +149,7 @@
   color: #ffffff;
 }
 @media (max-width: 767px) {
-  /* line 81, ../compass/sass/style.scss */
+  /* line 88, ../compass/sass/style.scss */
   .stinsonBg form .submitForm button {
     max-width: 300px;
     margin: 0 auto;
