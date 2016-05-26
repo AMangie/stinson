@@ -16,13 +16,22 @@
     color: #fff;
     h1{
     	color: #fff;
-    	text-transform: uppercase;
     	font-size:20px;
     }
-    h2{
+    .parrGnrl{
+    	    font-weight: 100;
+    	    font-size: 17px;
+    }
+    h3{
 		margin: 15px 0;
 	    font-size: 16px;
 	    text-transform: uppercase;
+	}
+	.subttl{
+	    font-size: 24px;
+	    text-align: left;
+	    margin-bottom: 20px;
+	    color: #EA770C;
 	}
 	.imgResponsive{width: 100%;}
 	.imgPkgTab{
