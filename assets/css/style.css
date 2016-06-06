@@ -134,10 +134,16 @@
   /* IE6-9 */
 }
 /* line 95, ../compass/sass/style.scss */
-.stinsonBg form .submitForm {
-  margin-top: 30px;
+.stinsonBg form .inputBox {
+    margin-bottom: 10px;
+    padding-left: 0;
 }
-/* line 97, ../compass/sass/style.scss */
+/* line 99, ../compass/sass/style.scss */
+.stinsonBg form .submitForm {
+  margin-top: 20px;
+  padding-left: 0;
+}
+/* line 104, ../compass/sass/style.scss */
 .stinsonBg form .submitForm button {
   width: 100%;
   background: #3A6ABF;
@@ -159,11 +165,19 @@
   border: none;
   color: #ffffff;
 }
+@media (min-width: 768px) {
+  .imgFormSide{
+    margin-top: 50px;
+  }
+}
 @media (max-width: 767px) {
-  /* line 97, ../compass/sass/style.scss */
+  /* line 107, ../compass/sass/style.scss */
   .stinsonBg form .submitForm button {
     max-width: 300px;
     margin: 0 auto;
     display: block;
+  }
+  .imgFormSide{
+    margin-bottom: 20px;
   }
 }
